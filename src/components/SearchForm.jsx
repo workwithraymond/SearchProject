@@ -10,7 +10,7 @@ const SearchForm = () => {
   }
   return (
     <section>
-      <h1 className="title">Image Search</h1>
+      <h1 className="title">New Images Search</h1>
       <form className="search-form" onSubmit={handleSubmit}>
         <input type="text" name="search" placeholder="search any image" className="form-input search-input"/>
         <button type="submit" className="btn">search</button>
